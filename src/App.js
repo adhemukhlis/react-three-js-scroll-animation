@@ -131,12 +131,12 @@ export default function App() {
   const GenerateSections = () =>
     sections.map((value, index) => (
       <section key={value} className={`section-${value}`}>
-        {index === 0 && <div class="mouse"></div>}
+        {index === 0 && <div class="mouse" />}
       </section>
     ));
   return (
     <div>
-      <div className="scene one"></div>
+      <div className="scene one" />
       <GenerateSections />
     </div>
   );
